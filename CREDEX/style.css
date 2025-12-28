@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  background: #f1f1f1;
+  padding: 20px;
+    background-image: url("images/pexels-karola-g-5632396.jpg");
+  background-size: cover;       /* image fills the whole page */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* stops repeating */
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  width: 90%;
+  padding: 10px;
+  background: rgb(18, 13, 147);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
